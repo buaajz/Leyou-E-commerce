@@ -1,0 +1,24 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: search-service
+  data:
+    elasticsearch:
+      #cluster-name: elasticsearch
+      cluster-name: my-application
+      cluster-nodes: 182.92.183.89:9300
+  jackson:
+    default-property-inclusion: non_null # 配置json处理时忽略空值
+  rabbitmq:
+    host: 182.92.183.89
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期

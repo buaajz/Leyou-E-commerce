@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.leyou.cart.config.JwtProperties",
+      "name": "leyou.jwt",
+      "type": "com.leyou.cart.config.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.leyou.cart.config.JwtProperties",
+      "name": "leyou.jwt.cookie-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.cart.config.JwtProperties",
+      "name": "leyou.jwt.pub-key-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.cart.config.JwtProperties",
+      "name": "leyou.jwt.public-key",
+      "type": "java.security.PublicKey"
+    }
+  ]
+}

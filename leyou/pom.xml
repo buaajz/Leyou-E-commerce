@@ -45,7 +45,7 @@
         <mapper.starter.version>2.1.5</mapper.starter.version>
         <druid.starter.version>1.1.9</druid.starter.version>
 <!--        <mysql.version>5.1.32</mysql.version>-->
-        <mysql.version>8.0.19</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <pageHelper.starter.version>1.2.3</pageHelper.starter.version>
         <leyou.latest.version>1.0.0-SNAPSHOT</leyou.latest.version>
         <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
